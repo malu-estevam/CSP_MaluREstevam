@@ -1,6 +1,6 @@
 # Malu Estevam, Variables Practice Python
 
-name = "My name is Malu Estevam"
+name = "Malu Estevam"
 
 print(name)
 
@@ -12,30 +12,30 @@ number2 = "144"
 
 print(number2)
 
-breakfast = "I ate nothing this morning"
+breakfast = "nothing"
 
 print(breakfast)
 
-color = "pink and white are my favorite colors"
+color = "pink and white"
 
 print(color)
 
-school = "I go to UCAS"
+school = "UCAS"
 
 print(school)
 
-year = "It is 2025"
+year = "2025"
 
 print(year)
 
-eye_color = "my eyes are dark brown"
+eye_color = "dark brown"
 
 print(eye_color)
 
-age = "I am 14 years old"
+age = "14"
 
 print(age)
 
-favorite_subject = "I love math and biology"
+favorite_subject = "math and biology"
 
 print(favorite_subject)
