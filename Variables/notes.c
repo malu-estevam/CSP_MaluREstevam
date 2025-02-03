@@ -1,3 +1,4 @@
+// Malu Estevam, Variables Notes
 #include <stdio.h>
 
 char name[] = "Malu";
