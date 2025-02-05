@@ -1,10 +1,11 @@
+// Malu Estevam, C program
 #include <stdio.h>
-char name[20];
+
 
 int main(void){
-    printf("Please type in your name: \n");
-    fgets(name, sizeof(name), stdin);
-
-    printf("Hello, welcome to my C program");
+    char name[50];
+    printf("What is your name?");
+    scanf("%s\n", name);
+    printf("Welcome to my program, %s\n", name);
     return 0;
 }
