@@ -13,19 +13,19 @@ grocereies = float(input("What is the cost of your groceries\n"))
 # Ask for transportation amount (user input)
 transportation = float(input("What is the cost of your transportation\n"))
 # Calculate savings as 10% of income (variable)
-
-# Calculate spending money income - (rent+utilities+groceries+transportations+savings) (variable)
-
+savings = float(income/10)
+# Calculate spending money income - (rent+utilities+groceries+transportation+savings) (variable)
+spend = float(income - (rent+utilities+groceries+transportation+savings))
 # Calculate percent of rent (rent/income) (variable)
-
+rent_percent = float(rent/income)
 # Calculate percent of utilities (utilities/income) (variable)
-
+utilities_percent = float(utilites/income)
 # Calculate percent of groceries (groceries/income) (variable)
-
+groceries_percent = float(groceries/income)
 # Calculate percent of transportation (transportation/income) (variable)
-
+tranportation_percent = float(transportation/income)
 # Calculate percent of spending (spending/income) (variable)
-
+spending_percent = float(spending/income)
 # Tell user category spending amount and percent for rent ("You spend $XX.XX on rent and that is XX% of your income")
 
 # Tell user category spending amount and percent for utilities ("You spend $XX.XX on utilities and that is XX% of your income")
