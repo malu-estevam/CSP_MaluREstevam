@@ -1,4 +1,4 @@
-#Malu Estevam, Notes Python
+#Malu Estevam, Expression Notes Python
 #integers are numbers with no decimal points
 #floats are numbers with decimal points
 #algotrithms are a set of instructions to complete a task

@@ -1,4 +1,4 @@
-// Malu Estevam, C program
+// Malu Estevam, first C program
 #include <stdio.h>
 
 
