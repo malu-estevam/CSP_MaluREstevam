@@ -1,4 +1,4 @@
-//Malu Estevam, Financial Calculator
+//Malu Estevam, Financial Calculator C
 #include <stdio.h>
 
 
