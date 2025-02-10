@@ -39,4 +39,4 @@ print(f"You spend ${transportation:.2f} on transportation and that is {transport
 # Tell user category spending amount and percent for spending ("You spend $XX.XX on spending and that is XX% of your income")
 print(f"You spend ${spend:.2f} on spending and that is {spend_percent:.2f}% of your income")
 # Tell user category spending amount and percent for savings ("You spend $XX.XX on savings and that is 10% of your income")
-print(f"You spend ${savings:.2f} on utilities and that is 10% of your income")
+print(f"You have ${savings:.2f} left for savings and that is 10% of your income")
