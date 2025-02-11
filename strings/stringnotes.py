@@ -10,6 +10,15 @@
 
 # name = input("Please give me a number\n").strip().capitalize()
 
-sentence = "The quick brown fox jumps over the lazy dog"
+sentence = "The quick brown fox jumps over the lazy dog."
 
-print(sentence.find("fox"))
+word = sentence.find("fox") 
+# Index numbers are where something appears in a program.
+# We count starting at 0 in programming
+
+# print(sentence[4:9]) # Tells computer where to start counting and where to end
+# print(len(sentence)) tells us how long a sentence is
+
+name = "Malu"
+print(f"Welcome to the program {name}!") #F strings to concatenate with curly brackets for variables
+print("Welcome to the program "+name) # Or + sign
