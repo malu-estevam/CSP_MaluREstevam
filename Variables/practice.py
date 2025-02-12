@@ -16,7 +16,7 @@ breakfast = "nothing"
 
 print(breakfast)
 
-color = "pink and white"
+color = "pink"
 
 print(color)
 
@@ -36,6 +36,6 @@ age = "14"
 
 print(age)
 
-favorite_subject = "math and biology"
+favorite_subject = "math"
 
 print(favorite_subject)
