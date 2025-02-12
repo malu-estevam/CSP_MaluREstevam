@@ -9,9 +9,9 @@ int main(void){
     // scanf("%s", name);
     // fgets(name, 20, stdin);
     // printf("Hello, %s, welcome to my program", name);
-    // char sentence[] = "The quick brown fox jumps over the lazy dog.";
-    // printf("%lu\n", sizeof(sentence));
-    // printf("%d\n", strlen(sentence));
+    char sentence[] = "The quick brown fox jumps over the lazy dog.";
+    printf("%lu\n", sizeof(sentence));
+    printf("%d\n", strlen(sentence));
     char one[] = "Hello ";
     char two[] = "World!";
     char three[] = "This is my program. ";
