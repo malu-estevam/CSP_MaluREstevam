@@ -4,3 +4,10 @@ name = input("Please tell me your full name\n").strip().capitalize()
 
 print(f"--- {name} ---")
 
+print(f"<<< {name} >>>")
+
+print(f"=== {name} +++")
+
+print(f"*** {name} ***")
+
+print(f"&&& {name} &&&")
