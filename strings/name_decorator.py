@@ -2,12 +2,7 @@
 
 name = input("Please tell me your full name\n").strip().capitalize()
 
-print(f"--- {name} ---")
+decor1 = ("===")
+decor2 = ("===")
 
-print(f"<<< {name} >>>")
-
-print(f"=== {name} +++")
-
-print(f"*** {name} ***")
-
-print(f"&&& {name} &&&")
+print(decor1 + name + decor2)
