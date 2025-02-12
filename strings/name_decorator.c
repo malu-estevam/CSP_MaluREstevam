@@ -7,9 +7,15 @@ char name[45];
 
 int main(void){
     printf("Please tell me your full name\n");
-    fgets(name, 45, stdin);
-    name[strcspn(name, "\n")] = 0;
-    
-    printf("<<< %s >>>\n", name);
+    scanf("%s", name);
+
+    char one = ===;
+    char three = ===;
+    printf("%s\n", one);
+    strcat(one, name);
+    printf("%s\n", name);
+
+
+   
     return 0;
 }
