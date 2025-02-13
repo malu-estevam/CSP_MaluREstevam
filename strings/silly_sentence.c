@@ -10,7 +10,7 @@ char verb2[50];
 int main(void){
     printf("Welcome to my silly sentences game. Follow the instructions below.\n");
     
-    printf("Please give me someone's name\n").capitalize();
+    printf("Please give me someone's name\n");
     scanf("%s", name);
     printf("Please give me a verb, past tense\n");
     scanf("%s", verb);
