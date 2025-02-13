@@ -1,10 +1,12 @@
 //Malu Estevam, Name Decorator C
 #include <stdio.h>
+#include <string.h>
 
 char name[45];
 
 int main(void){
-    printf("Please tell me your full name\n");
+    
+    printf("Please tell me your name\n");
     scanf("%s", name);
 
     char one[] = "====";
@@ -12,9 +14,9 @@ int main(void){
     
     
     strcat(one, name);
-    printf("%s\n", one);
+    printf("%s", one);
     strcat(name, two);
-    printf("%s\n", name);
+    printf("%s", two);
 
 
 
