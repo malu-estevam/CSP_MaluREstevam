@@ -1,4 +1,4 @@
-//Malu Estevam, silly sentences C
+//Malu Estevam, Template
 #include <stdio.h>
 
 
