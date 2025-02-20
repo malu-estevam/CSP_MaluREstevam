@@ -2,26 +2,29 @@
 
 def info(income, amount, type):
     type_percent = (amount/income)*100
-    print(f"You spend ${amount:.2f} on {type} and that is {type_percent:.0f}% of your income")
+    print(f"You spend ${amount:.2f} on {type} and that is {type_percent:.2f}% of your income")
 
-
+def user(type):
+    return float(input(f"What is the cost of your {type}\n"))
+    
 # write a print statement telling the user what the program is (budget calculator)
 print("Welcome to your financial calculator. Follow the instructions below")
 # Ask for monthly income (user input) 
-income = float(input("What is your monthly income\n"))
+income = user("income")
 # Ask for rent amount (user input) 
-rent = float(input("What is your monthly rent\n"))
+rent = user("rent")
 # Ask for utilities amount (user input) 
-utilities = float(input("What is the cost of your utilities\n"))
+utilities = user("utilities")
 # Ask for groceries amount (user input) 
-groceries = float(input("What is the cost of your groceries\n"))
+groceries = user("groceries")
 # Ask for transportation amount (user input)
-transportation = float(input("What is the cost of your transportation\n"))
+transportation = user("transportation")
 # Calculate savings as 10% of income (variable)
 savings = float(income/10)
 # Calculate spending money income - (rent+utilities+groceries+transportation+savings)*100 (variable)
 spend = (income - (rent+utilities+groceries+transportation+savings))
 spend_percent = spend/income*100
+
 
 info(income, rent, "rent")
 info(income, utilities, "utilities")
