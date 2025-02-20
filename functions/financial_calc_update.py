@@ -21,8 +21,11 @@ transportation = float(input("What is the cost of your transportation\n"))
 savings = float(income/10)
 # Calculate spending money income - (rent+utilities+groceries+transportation+savings)*100 (variable)
 spend = (income - (rent+utilities+groceries+transportation+savings))
+spend_percent = spend/income*100
 
 info(income, rent, "rent")
 info(income, utilities, "utilities")
 info(income, groceries, "groceries")
 info(income, transportation, "transportation")
+print(f"You should save ${savings:.2f} and that is 10% of your income")
+print(f"You have ${spend:.2f} left to spend and that is {spend_percent:.2f}% of your income.")
