@@ -1,10 +1,19 @@
 //Malu Estevam, Updated Hello World
 #include <stdio.h>
 
+void info(char name[50]){
+    printf("%s\n", name);
+
+}
 
 int main(void){
-    char name[50];
-    printf("Please tell me your name:\n");
-    scanf("%s", name);
+    
+    info("Hello Malu");
+    info("Hello Mili");
+    info("Hello Maehva");
+    info("Hello Jackie");
+    info("Hello James");
+
     return 0;
 }
+
