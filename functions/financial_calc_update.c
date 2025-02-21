@@ -1,11 +1,12 @@
 //Malu Estevam, Financial Calculator C
 #include <stdio.h>
 #include <math.h>
+
 float income, rent, utilities, groceries, transportation, spend, savings;
 
-float user(char type){
+float user(char type[]){
     float amount; 
-    printf("What is your rent amount?\n"); 
+    printf("What is your %s amount?\n", type); 
     scanf("%f", &amount);
     return amount;
 }
@@ -28,6 +29,7 @@ int main(void){
 
     transportation = user("transportation");
 
+    float savings = income/10;
     float spend = income - (rent+utilities+groceries+transportation+savings);
     float spend_percent = spend/income*100;
 
