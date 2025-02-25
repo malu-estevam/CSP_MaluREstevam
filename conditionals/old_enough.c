@@ -1,7 +1,7 @@
 // Malu Estevam, old enough C
 #include <stdio.h>
 #include <string.h>
-int age = 17;
+int age = 3;
 
 
 int main(void){
