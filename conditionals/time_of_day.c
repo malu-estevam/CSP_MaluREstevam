@@ -1,4 +1,4 @@
-//Malu Estevam, Time of Day
+//Malu Estevam, Template
 #include <stdio.h>
 
 
