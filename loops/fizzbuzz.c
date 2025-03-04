@@ -1,9 +1,9 @@
 //Malu Estevam, FizzBuzz C
 #include <stdio.h>
 
-
+int i;
 
 int main(void){
-    printf("Hello World");
+    for(i=0,i)
     return 0;
 }
