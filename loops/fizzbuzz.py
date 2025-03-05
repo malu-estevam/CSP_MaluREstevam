@@ -6,6 +6,5 @@ for x in range(1,51):
         print("buzz")
     if x % 3 and x % 5:
         print("fizzbuzz")
-    else:
-        print(x)
+    
     

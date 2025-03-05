@@ -1,9 +1,9 @@
 //Malu Estevam, FizzBuzz C
 #include <stdio.h>
 
-int i;
+int x;
 
 int main(void){
-    for(i=0,i)
+    for(x=0;x<51;x++)
     return 0;
 }
