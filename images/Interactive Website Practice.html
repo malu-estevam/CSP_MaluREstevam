@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://127.0.0.1:5501/html_basics/basic_web1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Interactive Website Practice</title>
+    </head>
+    <body>
+        <h1>Ballroom Dancing</h1>
+        <p>Ballroom dancing is a type of dance style that originally came from Europe in the 16th century. It is performed by a couple that follows a routine of given steps.There are many types of ballroom. Such as latin dances like samba, cha cha, rumba. There is also jive and triple swing which are more upbeat. Then the classics like waltz and foxtrot and quickstep.  Competitively dancing ballroom is what I do, however, one could do it just for fun. Keeping in mind that ballroom competitions are fast paced and stressful but so worth it. There is specific ballroom ettiquette such as looking your partener in the eye, making what is called a "ballroom face", and apologizing to people when you certainly will crash into them.</p>
+        <img src="./Interactive Website Practice_files/saved_resource" alt="Ballroom" height="100px">
+            <small></small><p>Image from: BYU</p><small></small>
+        <h2>Reasons why I love to dance</h2>
+        <ol>
+            <li>I grew up dancing with my family so it's in my blood.</li>
+            <li>It helps me stay active</li>
+            <li>I learn teamwork and use the creative side of brain</li>
+            <li>Showcases and comps are my absolute favorite-- even with the crazy environment</li>
+        </ol>
+        
+        <p></p>
+
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
