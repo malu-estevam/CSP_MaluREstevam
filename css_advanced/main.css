@@ -29,6 +29,11 @@ img{
     flex-wrap: wrap;
     align-items:flex-end;
 }
+#no{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
 /*Generic Font Families
 1. Serif- hook things
 2. Sans-serif- no hooks on letters
