@@ -1,6 +1,7 @@
 let images = ["https://media.istockphoto.com/id/1214517477/photo/elegant-young-couple-of-ballroom-dancers-in-red-dress-in-suit-dancing-on-white.jpg?s=1024x1024&w=is&k=20&c=QmzDS8Lp5oO2VdO0Yp035MU1eGI1BZM77j76f_rHuK0=", "https://www.danceinforma.com/wp-content/uploads/2018/06/LJD.jpg", "https://multiarena.no/wp-content/uploads/2021/01/dancedeck-dancers.jpg.webp"]
 function hello(){
-    document.getElementById("title").innerHTML = "Hello World!"
+    let name = window.prompt("What is your name?", "Malu Estevam")
+    document.getElementById("title").innerHTML = "Hello " + name + "!"
 }
 count = 0
 function change(){
@@ -21,4 +22,11 @@ function normal(){
 }
 function show(){
     document.getElementById("hidden").style.display = "block"
+}
+function pop(){
+    window.alert("Don't click this!")
+}
+function push(){
+     document.getElementById("btn").style.backgroundColor = "red"
+   
 }
