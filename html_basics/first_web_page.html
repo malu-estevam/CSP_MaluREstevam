@@ -6,6 +6,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
         <title>My First Web Page- Updated</title>
+        <script src="first_webpage.js"></script>
         <style>
             *{
                 background-color:rgb(163, 156, 156);
@@ -30,6 +31,11 @@
                 font-size: 25px;
             }
             #list{
+                color:rgb(204, 104, 121);
+                font-size: 25px;
+                margin: 13px;
+            }
+            #songs{
                 color:rgb(204, 104, 121);
                 font-size: 25px;
                 margin: 13px;
@@ -60,6 +66,16 @@
                 font-size:15px;
                 color:gray;
             }
+            #click{
+                display: none;
+            }
+            #songs{
+                font-size: 25px;
+                color:pink
+            }
+            #btn{
+                font-size: 25px;
+            }
         
 
         </style>
@@ -82,6 +98,8 @@
         <h2>Awards</h2>
         <p id="awards">Speaking of their first Eurovision award, they had many, many awards. They occupied the UK Number One spot 9 times between 1974 and 1980. It was in 1976 that they were established as one of the most popular groups in THE WORLD! They released #1 hits in places like the United States and Autralia. "Dancing Queen" was their number one for a long time. In 1978 they went on a promotional campaign in the USA and even appeared on billboards. Personally, I think their biggest, best, album was their GOLD compilation that released in 1990. It has sold more the 33 MILLION copies to date. All in all, ABBA was one of the most succesful bands in the 70's and continues to have an impact on today's youth all over the world.</p>
 
+        <img id = "abba" onmouseover="change()" src = "https://imgs.smoothradio.com/images/260344?crop=16_9&width=660&relax=1&format=webp&signature=GFNixwAh03tKcRaZMK0xiP3vk38=" alt = "ABBA3">
+
         <h2>Their impact today</h2>
         <ol id="list"> 
             <li>Youth, including myself, still listen to their songs on repeat</li>
@@ -92,7 +110,13 @@
 
         <a href="https://www.britannica.com/story/what-is-the-legacy-of-abba-in-popular-culture" target="_blank">Link to more information</a>
 
-        <button id = "btn">Click me</button>
+        <br>
+        <button id="btn" onclick="show()">Click me!</button>
+        <div id="click">
+        <h2>My favorite songs and why</h2>
+        <p id="songs">One of my favorite songs is Chiquitita. I love this song because I have some friends and we call each other chiquitita. This song hits home because of the lyrics and the meaning of them for me. I also love the song Mamma Mia because me and my friends used to sing ABBA in class. I have fond memories of singing lots of ABBA songs in math class. I also love this song because of the musical. It is one of my favorite movies for sure. I also love the song Super Trouper because me and my mom sing it all the time. I even asked her to sing it at my wedding with her best friends who are like second moms to me.</p>
+        <img src="https://images.squarespace-cdn.com/content/v1/565c1ab5e4b05079e4bfa169/1666851497526-LQST3299VFH1IQV87UQR/ABBA+Super+Trouper+Album+Cover.jpg?format=1500w" alt="album">
+    </div>
 
     </body>
 </html>
