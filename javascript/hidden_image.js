@@ -1,3 +1,3 @@
-function hidden(){
-    document.getElementById("hidden").style.display = "block"
+function show(){
+    document.getElementById("image").style.display = "block"
 }
