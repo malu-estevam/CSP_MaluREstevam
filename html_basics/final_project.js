@@ -1,4 +1,4 @@
-let images = ["https://www.nps.gov/npgallery/GetAsset/3985E32C-1DD8-B71B-0BC98AEE806D3218/proxy/hires", "https://www.nps.gov/arch/planyourvisit/images/14001330199_c3c118e4c7_k.jpg" ]
+let images = ["https://www.nps.gov/npgallery/GetAsset/3985E32C-1DD8-B71B-0BC98AEE806D3218/proxy/hires", "https://www.nps.gov/arch/planyourvisit/images/14001330199_c3c118e4c7_k.jpg", "https://cdn.visualwilderness.com/wp-content/uploads/2018/04/Double-Arch-Moab-550x468.jpg" ]
 let count = 0
 function change(){
     document.getElementById("img2").src = images[count]
