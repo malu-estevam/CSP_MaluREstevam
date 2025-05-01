@@ -16,21 +16,22 @@
                 font-style: normal;
     
             }
-            h1{
+            #heading{
                 text-align: center;
+                background-color: rgb(122, 122, 84);
                 color: rgb(201, 95, 83);
             }
             h2{
                 color: rgb(201, 95, 83);
             }
             #what{
-                width: 50%;
+                width: 1000px;
                 background-color: bisque;
                 border-radius: 5px;
                 padding: 7px;
             }
             #list{
-                width: 50%;
+                width: 1000px;
                 background-color: bisque;
                 border-radius: 5px;
                 padding: 7px;   
@@ -38,34 +39,32 @@
             #img1{
                 width:55%;
             }
-            #sunset{
-                display: flex;
-                object-position: right bottom;
-            }
             #click{
-                width: 45%;
-                height: 50%;
+                width: 1000px;
                 background-color: bisque;
                 border-radius: 5px;
                 padding: 7px; 
                 display: none;
             }
             #img2{
-                height: 200px;
+                height: 500px;
+                width: 800px;
                 background-color: bisque;
                 border-radius: 5px;
                 padding: 7px; 
                 
             }
             #img3{
-                width:20%;
+                height: 500px;
+                width: 800px;
                 margin: 1px;
                 background-color: bisque;
                 border-radius: 5px;
-                padding: 7px; 
+                padding: 7px;
             }
             #img4{
                 width:55%;
+                height: 55%;
             }
             #img5{
                 width: 25%;
@@ -74,16 +73,29 @@
                 margin: 5px;
             }
             #columns{
-                display:flex;
+                display: grid;
                 gap: 20px;
             }
+            #column3{
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 20px;
+            }
+            #content{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            
             
         </style>
     </head>
 
 <body>
     
-    <h1>Arches National Park</h1>
+    <h1 id="heading">Arches National Park</h1>
+<div id="content">
+<div>
+    <div id="column3">
     <div id="columns">
     <div id="what">
     <h2>Sooo... what about it?</h2>
@@ -91,8 +103,9 @@
     <p>Arches National Park, located in eastern Utah, displays over 2,000 beautiful, natural, delicate, arches. The red rock is a shocker to the human eye, resulting in a magnificent place for a photoshoot. We understand there are people who cannot live without their phones. Well, good news, our park is mobile friendly. We also have camping sites if you love the park so much you can't leave. One could learn so much about history and culture there, because of the ancient painting the Native Americans left behind. Arches National Park has so mcuh to offer for not only nature lovers, but history lovers as well. </p>
     </div>
 
-    <br>
+    
 
+    <div id="column2">
     <div>
         <div id="list">
         <h2>Why should you go?</h2>
@@ -107,15 +120,9 @@
         </div>
 
     </div>
-
-    <p id="hover">(Hover below to find hidden images!)</p>
-    <img id="img2" onmouseover="change()" src="https://travelbabbo.com/wp-content/uploads/2021/01/20200708_0208_Stoen-140-2.jpg" alt="arches2">
-
-
-    <div id="sunset">
-    <img id="img3" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Delicate_arch_sunset.jpg" alt="arches3">
+       
     </div>
-
+</div>
 
         <button id="btn" onclick="show()" onmouseover="highlight()" onmouseout="normal()">Show more</button>
         <div id="click">
@@ -123,6 +130,20 @@
         <p id="facts">An interesting fact about the arches is that it used to be underwater. This is why the arches are shaped the way they are. Another facts is that the soil is actually "alive." Living organisms like green algae, mosses, and fungi actually hold the whole park together. And finally, there were at least 11 movies filmed there. Movies like Indiana Jones and The Last Crusade, Thelma and Louise, and Hulk.</p>
         <img id="img5" src="https://boardingpasstraveler.com/wp-content/uploads/2021/07/arches-national-park.jpg" alt="arches5">
     </div>
+</div>
 
+
+<div>
+    
+    <img id="img2" onmouseover="change()" src="https://travelbabbo.com/wp-content/uploads/2021/01/20200708_0208_Stoen-140-2.jpg" alt="arches2">
+
+    <div id="sunset">
+        <img id="img3" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Delicate_arch_sunset.jpg" alt="arches3">
+        </div>
+</div>
+
+
+
+</div>
 
 </body>
